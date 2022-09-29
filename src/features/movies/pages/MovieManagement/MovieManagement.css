@@ -1,0 +1,43 @@
+.trapezoid {
+    border-bottom: 50px solid gray;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 80%;
+    opacity: 0.1;
+    filter: drop-shadow(0px 128px 102px rgba(120, 103, 103, 0.38));
+    -webkit-filter: drop-shadow(0px 128px 102px rgba(120, 103, 103, 0.38));
+    -moz-filter: drop-shadow(0px 128px 102px rgba(120, 103, 103, 0.38));
+  }
+  
+  /* ghe thuong*/
+  .ghe {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 0.8rem;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    cursor: pointer;
+    margin: 0px 18px 16px 0;
+    background-color: #2d3436;
+    color: white;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+  }
+  .gheDaDat {
+    background-color: rgb(232, 76, 76);
+    cursor: no-drop;
+  }
+  .gheDangDat {
+    background-color: rgb(18, 176, 18) !important;
+  }
+  .gheVip {
+    background-color: rgb(228, 74, 8);
+  }
+  .gheDaDuocDat{
+    background-color: rgb(233, 236, 227);
+    box-shadow: -1px 2px 18px -6px #000;
+    -webkit-box-shadow: -1px 2px 18px -6px #000;
+    color:orange !important
+  }
