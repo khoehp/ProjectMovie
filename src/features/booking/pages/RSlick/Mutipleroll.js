@@ -2,9 +2,7 @@ import Slider from "react-slick";
 import styles from "./Mutipleroll.module.css";
 import React from "react";
 import Film from "../Film/Film";
-import Film_Flip from "../Film/Film_Flip";
 import { useDispatch } from "react-redux";
-import { SET_FILM_DANG_CHIEU, SET_FILM_SAP_CHIEU } from "./../../action";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -29,7 +27,6 @@ function SamplePrevArrow(props) {
 }
 
 const Mutipleroll = (props) => {
-  const dispatch = useDispatch();
 
   const lstFilmRSlick = props.movielist;
   const renderFilms = () => {
